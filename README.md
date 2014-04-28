@@ -12,7 +12,7 @@ Point the directory chooser to the unpacked zip file.
 
 Choose 'copy file into workspace' (optional).
 
-'''java
+```java
 	package com.swisscom.api.sms;
 
 	import com.swisscom.api.sms.wrapper.SendSMS;
@@ -28,7 +28,7 @@ Choose 'copy file into workspace' (optional).
 	
 		}
 	}
-'''
+```
 
 Copy your previously created APi key for SendSMS into SendSmsUsingLib.java 
 	Set 'from' to your previously validated mobile number.
