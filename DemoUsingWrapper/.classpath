@@ -9,6 +9,6 @@
 	<classpathentry kind="lib" path="lib/httpcore-4.2.4.jar"/>
 	<classpathentry kind="lib" path="lib/httpmime-4.2.5.jar"/>
 	<classpathentry kind="lib" path="lib/json-simple-1.1.1.jar"/>
-	<classpathentry kind="lib" path="SmsWrapper.jar"/>
+	<classpathentry kind="lib" path="lib/SmsWrapper.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
