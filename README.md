@@ -13,27 +13,26 @@ Point the directory chooser to the unpacked zip file.
 Choose 'copy file into workspace' (optional).
 
 ```java
-	package com.swisscom.api.sms;
+package com.swisscom.api.sms;
 
-	import com.swisscom.api.sms.wrapper.SendSMS;
-
-	public class SendSmsUsingLib {
-		public static void main(String[] args) {
-		
-			SendSMS.sendSms(
-					"<YOUR_CLIENT_ID_GOES_HERE>", // <- ClientId from DevPortal
-					"+41791234567",  // <- from
-					"+41797654321",  // <- to
-					"Hi from sendSMS(GSMA) called by Java client - Using a library:-)");  // <- message
+import com.swisscom.api.sms.wrapper.SendSMS;
+public class SendSmsUsingLib {
+public static void main(String[] args) {
 	
-		}
-	}
+SendSMS.sendSms(
+"<YOUR_CLIENT_ID_GOES_HERE>", // <- ClientId from DevPortal
+"+41791234567",  // <- from
+"+41797654321",  // <- to
+"Hi from sendSMS(GSMA) called by Java client - Using a library:-)");  // <- message
+
+}
+}
 ```
 
-Copy your previously created APi key for SendSMS into SendSmsUsingLib.java 
-	Set 'from' to your previously validated mobile number.
-	Set 'to' to the mobile number that should receive the message.
-	Edit the message... (optional)
+    Copy your previously created APi key for SendSMS into SendSmsUsingLib.java 
+    Set 'from' to your previously validated mobile number.
+    Set 'to' to the mobile number that should receive the message.
+    Edit the message... (optional)
 
 Right click SendSmsUsingLib.java and click on 'Run as Java application'
 
