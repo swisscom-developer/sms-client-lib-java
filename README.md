@@ -17,15 +17,16 @@ package com.swisscom.api.sms;
 
 import com.swisscom.api.sms.wrapper.SendSMS;
 public class SendSmsUsingLib {
-public static void main(String[] args) {
-	
-SendSMS.sendSms(
-"<YOUR_CLIENT_ID_GOES_HERE>", // <- ClientId from DevPortal
-"+41791234567",  // <- from
-"+41797654321",  // <- to
-"Hi from sendSMS(GSMA) called by Java client - Using a library:-)");  // <- message
 
-}
+    public static void main(String[] args) {
+	
+        bSendSMS.sendSms(
+            "<YOUR_CLIENT_ID_GOES_HERE>", // <- ClientId from DevPortal
+            "+41791234567",  // <- from
+            "+41797654321",  // <- to
+            "Hi from sendSMS(GSMA) called by Java client - Using a library:-)");  // <- message
+
+        }
 }
 ```
 
@@ -35,5 +36,7 @@ SendSMS.sendSms(
     Edit the message... (optional)
 
 Right click SendSmsUsingLib.java and click on 'Run as Java application'
+
+Done!
 
 __Note:__ For SendSMS API, the API secret is not used, only the key.
