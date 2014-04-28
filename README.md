@@ -20,7 +20,7 @@ public class SendSmsUsingLib {
 
     public static void main(String[] args) {
 	
-        bSendSMS.sendSms(
+        SendSMS.sendSms(
             "<YOUR_CLIENT_ID_GOES_HERE>", // <- ClientId from DevPortal
             "+41791234567",  // <- from
             "+41797654321",  // <- to
